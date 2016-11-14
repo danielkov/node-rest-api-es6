@@ -1,0 +1,9 @@
+<div class="col-xs-4" ng-init="getTodo()">
+      <div class="panel panel-default">
+        <h1>{{todo.title}}
+          <input type="checkbox" ng-checked="{{todo.done}}" ng-click="toggleTodo(todo._id)">
+        </h1>
+        <a href="#/edit/{{todo._id}}" class="btn btn-success">Edit</a>
+        <button ng-click="removeTodo(todo._id)" class="btn btn-danger">Remove</button>
+      </div>
+</div>

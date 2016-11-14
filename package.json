@@ -1,0 +1,22 @@
+{
+  "name": "es6-restapi",
+  "version": "1.0.0",
+  "description": "ES6 based rest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkov/node-rest-api-es6.git"
+  },
+  "keywords": [
+    "rest"
+  ],
+  "author": "Daniel Kovacs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielkov/node-rest-api-es6/issues"
+  },
+  "homepage": "https://github.com/danielkov/node-rest-api-es6#readme"
+}
